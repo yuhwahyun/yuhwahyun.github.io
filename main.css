@@ -1,0 +1,303 @@
+
+section{
+    
+}
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+}
+
+.txt{
+    margin-left:220px;
+}
+
+
+/*S0 시작*/
+
+.s0{
+    /*background:linear-gradient(#514886, #3977C1);*/
+    background-image:url('./img/main.jpg');
+    background-size:cover;
+}
+.s0 li.mtxt{
+    font-size:70px;
+    color:#fff;
+    margin-bottom: 70px;
+    font-weight:500;
+    letter-spacing:-1px;
+}
+.s0 li.stxt{
+    font-size:30px;
+    color:#eee;
+}
+.s0 li.contxt{
+    font-size:20px;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing:-1px;
+}
+
+.s0 li.btn{
+    margin-top:40px;
+    letter-spacing:2px;
+}
+
+.s0 li.btn a{
+    text-decoration:none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 8px 25px;
+}
+
+.s0 li.btn a:hover{
+    text-decoration:none;
+    background-color: #fff;
+    color:#333;
+    border: 1px solid #fff;
+    padding: 8px 25px;
+}
+
+/*S0 끝*/
+
+/*S1 시작*/
+.s1{
+    
+}
+.s1 li.mtxt{
+    font-size:70px;
+    color:#333;
+    margin-bottom: 70px;
+    font-weight:500;
+    letter-spacing:-1px;
+}
+.s1 li.stxt{
+    font-size:30px;
+    color:#333;
+}
+.s1 li.contxt{
+    font-size:20px;
+    color:#333;
+    font-weight: 300;
+    letter-spacing:-1px;
+}
+
+.s1 li.btn{
+    margin-top:40px;
+    letter-spacing:2px;
+}
+
+.s1 ul.service{
+    margin-left:220px;
+    margin-top: 40px;;
+}
+
+.s1 ul.service>li{
+    float: left;
+    /*background-color:#F2F5F9;*/
+    width:210PX;
+    height:294px;
+    margin-right:15px;
+}
+
+.s1 ul.service>li>img{
+    width:210PX;
+    height:294px;
+    background-size:cover;
+    position:absolute;
+}
+
+.s1 ul.service>li:hover>img{
+    width:210PX;
+    height:294px;
+    background-size:cover;
+    position:absolute;
+    filter: brightness(50%);
+} 
+
+.s1 ul.service>li>a{
+    display:none;
+    text-align:center;
+    line-height: 294px;
+    text-decoration: none;
+    color:#333;
+    position:relative;
+    z-index:1;
+}
+
+.s1 ul.service>li:hover>a{
+    display:block;
+    text-align:center;
+    line-height: 294px;
+    text-decoration: none;
+    color:#fff;
+    position:relative;
+    z-index:1;
+    font-weight:500;
+}
+
+/*S1 끝*/
+
+/*S2 시작*/
+
+.s2 .txt{
+    float:left;
+    width:410px;
+    margin-top:200px;
+}
+
+.s2 li.mtxt{
+    font-size:80px;
+    color:#333;
+    margin-bottom: 70px;
+    font-weight:500;
+    letter-spacing:-1px;
+}
+.s2 li.stxt{
+    font-size:30px;
+    color:#333;
+}
+.s2 li.contxt{
+    font-size:20px;
+    color:#333;
+    font-weight: 300;
+    letter-spacing:-1px;
+}
+
+.s2 li.btn{
+    margin-top:40px;
+    letter-spacing:2px;
+}
+
+.s2 li.btn a{
+    text-decoration:none;
+    color:#333;
+    border: 1px solid #333;
+    padding: 8px 25px;
+}
+
+.s2 li.btn a:hover{
+    text-decoration:none;
+    background-color:#333;
+    color:#FFF;
+    border: 1px solid #333;
+    padding: 8px 25px;
+}
+
+.s2 .port{
+    float:left;
+    margin-left:180px;
+    width:730px;
+}
+
+.s2 .port>li{
+    width:350PX;
+    height:350px;
+    
+    float: left;
+   margin-left: 15px;
+   margin-bottom:15px;
+}
+
+.s2 ul.port>li>a{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    line-height:350px;
+    text-align:center;
+
+}
+
+.s2 ul.port>li>img{
+    width:350PX;
+    height:350px;
+    background-size:cover;
+    position:absolute;
+}
+
+
+
+.s2 .port>li:hover>img{
+    width:350PX;
+    height:350px;
+    background-size:cover;
+    filter: brightness(40%);
+}
+
+
+.s2 .port>li>a{
+    display:none;
+    text-align:center;
+    line-height: 350px;
+    text-decoration: none;
+    color:#333;
+    position:relative;
+    z-index:1;
+}
+
+.s2 .port>li:hover>a{
+    display:block;
+    text-align:center;
+    line-height: 350px;
+    text-decoration: none;
+    color:#fff;
+    position:relative;
+    z-index:1;
+    font-weight:500;
+}
+
+
+/*S2 끝*/
+
+/*S3 시작*/
+.s3 li.mtxt{
+    font-size:80px;
+    color:#333;
+    margin-bottom: 70px;
+    font-weight:500;
+    letter-spacing:-1px;
+}
+.s3 li.stxt{
+    font-size:30px;
+    color:#333;
+}
+.s3 li.contxt{
+    font-size:20px;
+    color:#333;
+    font-weight: 300;
+    letter-spacing:-1px;
+}
+
+.s3 li.btn{
+    margin-top:40px;
+    letter-spacing:2px;
+}
+
+.s3 li.btn a{
+    text-decoration:none;
+    color:#333;
+    border: 1px solid #333;
+    padding: 8px 25px;
+}
+
+.s3 li.btn a:hover{
+    text-decoration:none;
+    background-color:#333;
+    color:#FFF;
+    border: 1px solid #333;
+    padding: 8px 25px;
+}
+
+
+
+
+/* 풀페이지 네비게이션*/
+
+#fp-watermark a{
+    color: #aaa;
+}
+
+
+#fp-nav ul li a span {
+    background-color:#aaa;
+}
