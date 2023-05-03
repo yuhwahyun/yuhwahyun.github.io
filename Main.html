@@ -24,6 +24,8 @@
     <div class="fullpage">
 
         <div class="section s0">
+            
+            <h3><img src="./img/logo.png"></h3>
             <ul class="txt">
                 <li class="stxt"><a>WHO WE ARE?</a></li>
                 <li class="mtxt"><a>모두 자신있는 MKT입니다.</a></li>
@@ -96,26 +98,27 @@
     </script>
 
 
-<!--
     <script>
+        //txt 브라우저에 있는지 감시
         let observer = new IntersectionObserver((e)=>{
-            e.forEach((텍스트)=>{
-                if(텍스트.isIntersecting){
-                     텍스트.target.style.opacity =1;
+            e.forEach((txt)=>{
+                if(txt.isIntersecting){
+                     txt.target.style.opacity = 1;
+                    console.log(txt.target);
                 }else{
-                    
+                    txt.target.style.opacity = 0;
                 }
             })
         })
 
-        let txt= document.querySelectorAll('div')
-        
-        observer.observe(div[0])
-        observer.observe(div[1])
-        observer.observe(div[2])
-        observer.observe(div[3])
+        //.txt 요소 
+        let txt= document.querySelectorAll('.txt');
+       
+        //모든 .txt 감시목록 등록
+        for(let index in txt) {
+            observer.observe(txt[index]);
+        }
     </script>
--->
 
 </body>
 </html>
